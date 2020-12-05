@@ -3,11 +3,12 @@ img{
 }
 h2{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(17, 0, 255);
+    color:blue;
+    text-align: center;
 }
 h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(43, 255, 0);
+    color:blueviolet;
     font-style: italic;
 }
 p{
