@@ -15,5 +15,10 @@ resume: Resume;
     this.resume.name="Hordiienko Volodymyr";
     this.resume.phone="+38 (097) 937-99-92";
     this.resume.city="Kropyvnytskyi";
+    this.resume.experience=11;
+    this.resume.photo="../../assets/images/dzhonni-depp.webp";
+    this.resume.skills=[];
+    this.resume.skills.push("ADO.NET");
+    this.resume.skills.push("WPF");
   }
 }
