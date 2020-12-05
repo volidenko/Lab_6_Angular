@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { PipesTestComponent } from './pipes-test/pipes-test.component';
 import { JoinPipe } from './join.pipe';
 import { HobbyComponent } from './hobby/hobby.component';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PipesTestComponent,
     JoinPipe,
-    HobbyComponent
+    HobbyComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule
