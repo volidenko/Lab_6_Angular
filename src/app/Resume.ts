@@ -1,5 +1,4 @@
-export class Hobby{
+export class Resume{
     title: string;
     description: string;
-    imageUrl: string;
 }
