@@ -1,22 +1,14 @@
-
 <h2>Resume</h2>
 <div><img [src]="this.resume.photo"/></div>
 <div>Name: {{this.resume.name | uppercase}}</div>
 <div>Phone: {{this.resume.phone}}</div>
 <div>City: {{this.resume.city | uppercase}}</div>
 <div>Experience: {{this.resume.experience }} years</div>
+<div>Skill:</div>
 <ul>
-    <li *ngFor="let item of this.resume">
-        <p>{{item.skills}}</p>
-    </li>
+    <li *ngFor="let skill of resume.skills">{{skill}}</li>
 </ul>
-
-
-
 <h3>Ссылки на ресурсы</h3>
 <ul>
-  <li><a href="https://github.com/volidenko">github</a></li>
-  <li><a href="https://twitter.com">twitter</a></li>
+  <li *ngFor="let link of links"><a href={{link.url}}>{{link.text}}</a></li>
 </ul>
-
-<img src="../../assets/images/Bill_Gates_2018.jpg">
